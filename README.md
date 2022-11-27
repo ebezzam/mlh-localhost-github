@@ -58,7 +58,7 @@ To run this application locally, you'll need to:
 
 ```
 git clone https://github.com/MLH/mlh-localhost-github.git
-cd localhost-github
+cd mlh-localhost-github
 npm install
 ```
 
@@ -73,7 +73,7 @@ GOOGLE_API_KEY= # Google Maps API KEY
 Now inside the root folder run the following:
 
 ```
-npm geocode
+npm run geocode
 ```
 
 This will turn each line in the `locations.txt` into a set of coordinates.
@@ -83,3 +83,8 @@ You can see your own map by running:
 ```
 npm start
 ```
+
+## Issues
+
+- First city gets ignored.
+- Only one city can be added at a time.
